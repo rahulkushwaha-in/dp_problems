@@ -26,3 +26,11 @@
        return f(n-1,W,wt,val,dp);
     
     }
+
+//  Time Complexity: O(N*W)
+
+// Reason: There are N*W states therefore at max ‘N*W’ new problems will be solved.
+
+// Space Complexity: O(N*W) + O(N)
+
+// Reason: We are using a recursion stack space(O(N)) and a 2D array ( O(N*W)).

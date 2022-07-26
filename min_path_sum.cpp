@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-
+// memoized version/method
 int f(int i, int j, vector<vector<int>>&matrix,vector<vector<int>>&dp){
     
     if(i == 0 && j == 0) return matrix[0][0];

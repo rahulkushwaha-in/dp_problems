@@ -36,14 +36,6 @@
 // Reason: We are using a recursion stack space(O(N)) and a 2D array ( O(N*W)).
 
 
-
-
-
-
-
-
-
-
 // Tabulation method
  int knapSack(int W, int wt[], int val[], int n) 
     { 
